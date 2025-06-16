@@ -1,14 +1,22 @@
-# OTP SMS App
+# Twilio OTP SMS App
 
-A personal project using Twilio to send OTP (One Time Password) via SMS for user registration and authentication.
+A personal project that uses Twilio to send One-Time Password (OTP) codes via SMS for user registration and authentication.
 
-## Tech Stack
-- Node.js
-- Twilio API (Programmable SMS & Verify)
-- Firebase (or your database)
+## 🔧 Features
 
-## Status
-Currently in development. Not yet in production.
+- User phone number verification
+- Sends OTP code using Twilio Verify API
+- Simple Node.js backend (can be extended for production use)
 
-## Purpose
-This project is for learning and experimenting with secure phone number verification using Twilio.
+## 🚀 Tech Stack
+
+- [Twilio Verify API](https://www.twilio.com/docs/verify)
+- Node.js + Express
+- dotenv for environment config
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/KinanHilbish/twilio-otp-demo.git
+cd twilio-otp-demo
+npm install
